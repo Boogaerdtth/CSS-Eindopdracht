@@ -11,10 +11,6 @@
 a{
     color: white;
     text-decoration: none;
-    :hover{
-        right: 0; 
-        text-decoration: underline;
-    }
 }
 .navlink_link-blog {
     background-color: #e17b77; 
@@ -36,7 +32,10 @@ a{
     background-color: #333;
     top: 340px;
 }
-
+a:hover{
+    right: 0; 
+    text-decoration: underline;
+}
 .fa{
     padding-right:20px;
     border-left:0px;
